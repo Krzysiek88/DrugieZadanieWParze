@@ -3,8 +3,8 @@ public class DivEquasion implements ICalculable {
         return liczba1 / liczba2;
     }
 
-    private Double liczba1 = 5.06;
-    private Double liczba2 = 4.02;
+    private Double liczba1;
+    private Double liczba2;
 
     @Override
     public String toString() {

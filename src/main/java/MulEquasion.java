@@ -2,8 +2,8 @@ public class MulEquasion implements ICalculable {
     public double calculate() {
         return mnożona1 * mnożona2;
     }
-    private Double mnożona1 = 2.03;
-    private Double mnożona2 = 5.06;
+    private Double mnożona1;
+    private Double mnożona2;
 
     public MulEquasion(Double mnożona1, Double mnożona2) {
         this.mnożona1 = mnożona1;
